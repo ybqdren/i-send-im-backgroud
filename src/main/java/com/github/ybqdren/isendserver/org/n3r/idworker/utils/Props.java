@@ -1,4 +1,4 @@
-package com.github.ybqdren.org.n3r.idworker.utils;
+package com.github.ybqdren.isendserver.org.n3r.idworker.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 import java.util.Properties;
 
-import static com.github.ybqdren.org.n3r.idworker.utils.Serializes.closeQuietly;
+import static com.github.ybqdren.isendserver.org.n3r.idworker.utils.Serializes.closeQuietly;
 import static java.io.File.separator;
 
 public class Props {
@@ -21,7 +21,7 @@ public class Props {
         } catch (IOException e) {
             log.error("load properties error: {}", e.getMessage());
         } finally {
-            closeQuietly(is);
+            Serializes.closeQuietly(is);
         }
 
         return properties;

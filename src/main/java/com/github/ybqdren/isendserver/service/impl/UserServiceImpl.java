@@ -18,7 +18,7 @@ import com.github.ybqdren.isendserver.utils.FastDFSClient;
 import com.github.ybqdren.isendserver.utils.FileUtils;
 import com.github.ybqdren.isendserver.utils.JsonUtils;
 import com.github.ybqdren.isendserver.utils.QRCodeUtils;
-import com.github.ybqdren.org.n3r.idworker.Sid;
+import com.github.ybqdren.isendserver.org.n3r.idworker.Sid;
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
@@ -45,8 +45,6 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
 
-	private static Sid sid = new Sid();
-
 	@Autowired
 	private UsersMapper userMapper;
 	
@@ -61,13 +59,18 @@ public class UserServiceImpl implements UserService {
 	
 	@Autowired
 	private ChatMsgMapper chatMsgMapper;
-	
+
+	@Autowired
+	private Sid sid;
+
 	@Autowired
 	private QRCodeUtils qrCodeUtils;
 	
 	@Autowired
 	private FastDFSClient fastDFSClient;
-	
+
+
+
 	@Transactional(propagation = Propagation.SUPPORTS)
 	@Override
 	public boolean queryUsernameIsExist(String username) {

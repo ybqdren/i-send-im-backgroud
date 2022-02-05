@@ -1,4 +1,4 @@
-package com.github.ybqdren.org.n3r.idworker.strategy;
+package com.github.ybqdren.isendserver.org.n3r.idworker.strategy;
 
 
 import org.slf4j.Logger;

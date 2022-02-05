@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * <h1> pojo 用户信息 </h1>
@@ -13,6 +14,7 @@ import javax.persistence.Id;
  **/
 
 @Data
+@Table(name = "users")
 public class UsersPojo {
     /**
      * 唯一标识，方便后面分库分表时使用

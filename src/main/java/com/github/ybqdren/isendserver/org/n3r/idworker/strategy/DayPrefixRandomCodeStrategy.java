@@ -1,4 +1,4 @@
-package com.github.ybqdren.org.n3r.idworker.strategy;
+package com.github.ybqdren.isendserver.org.n3r.idworker.strategy;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

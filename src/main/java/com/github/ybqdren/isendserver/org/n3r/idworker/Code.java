@@ -1,6 +1,6 @@
-package com.github.ybqdren.org.n3r.idworker;
+package com.github.ybqdren.isendserver.org.n3r.idworker;
 
-import com.github.ybqdren.org.n3r.idworker.strategy.DefaultRandomCodeStrategy;
+import com.github.ybqdren.isendserver.org.n3r.idworker.strategy.DefaultRandomCodeStrategy;
 
 public class Code {
     private static RandomCodeStrategy strategy;

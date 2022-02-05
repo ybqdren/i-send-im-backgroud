@@ -1,8 +1,8 @@
-package com.github.ybqdren.org.n3r.idworker;
+package com.github.ybqdren.isendserver.org.n3r.idworker;
 
 
-import com.github.ybqdren.org.n3r.idworker.strategy.DefaultWorkerIdStrategy;
-import com.github.ybqdren.org.n3r.idworker.utils.Utils;
+import com.github.ybqdren.isendserver.org.n3r.idworker.strategy.DefaultWorkerIdStrategy;
+import com.github.ybqdren.isendserver.org.n3r.idworker.utils.Utils;
 import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;

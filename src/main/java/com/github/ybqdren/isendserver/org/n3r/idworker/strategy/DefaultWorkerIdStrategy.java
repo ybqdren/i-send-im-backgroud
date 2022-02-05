@@ -1,10 +1,10 @@
-package com.github.ybqdren.org.n3r.idworker.strategy;
+package com.github.ybqdren.isendserver.org.n3r.idworker.strategy;
 
-import com.github.ybqdren.org.n3r.idworker.WorkerIdStrategy;
-import com.github.ybqdren.org.n3r.idworker.utils.HttpReq;
-import com.github.ybqdren.org.n3r.idworker.utils.Ip;
-import com.github.ybqdren.org.n3r.idworker.utils.Props;
-import com.github.ybqdren.org.n3r.idworker.utils.Utils;
+import com.github.ybqdren.isendserver.org.n3r.idworker.WorkerIdStrategy;
+import com.github.ybqdren.isendserver.org.n3r.idworker.utils.HttpReq;
+import com.github.ybqdren.isendserver.org.n3r.idworker.utils.Ip;
+import com.github.ybqdren.isendserver.org.n3r.idworker.utils.Props;
+import com.github.ybqdren.isendserver.org.n3r.idworker.utils.Utils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
