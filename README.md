@@ -4,7 +4,7 @@ Netty 仿微信客户端，项目跟写自慕课网课程，不过因为原项�
 
 
 # 技术栈
-后端：Spring Boot + Netty
+后端：Spring Boot + Mybatis + Netty
 前端：mui + H5
 
 
